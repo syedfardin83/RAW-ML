@@ -1,5 +1,7 @@
 from random import randint
-import matrixUtils
+from matrixUtils import *
+import numpy as np
+import pandas as pd
 
 # We will write 2 functions:
 # 1 -> The classifier which takes an m*n matrix train_set. 
@@ -44,4 +46,4 @@ def Classify(train_set ,label_set, m, n):
 
             #Now we go from 
 
-matrixUtils.PrintMatrix(matrixUtils.MakeRandMatrix(3,3,0,1),3,3)
+PrintMatrix(MakeRandMatrix(3,3,1,0),3,3)
