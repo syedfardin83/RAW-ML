@@ -16,7 +16,7 @@ def fibb(n):
     elif(n==2):
         return 1
     else:
-        return 1+
+        return 1
 
 
  
